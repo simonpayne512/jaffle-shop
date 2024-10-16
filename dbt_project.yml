@@ -1,6 +1,6 @@
 config-version: 2
 
-name: "jaffle_shop"
+name: "jafffle"
 version: "3.0.0"
 require-dbt-version: ">=1.5.0"
 
@@ -20,6 +20,8 @@ target-path: "target"
 clean-targets:
   - "target"
   - "dbt_packages"
+
+packages-install-path: ../../../../../home/agentuser/.local/lib/python3.10/
 
 vars:
   "dbt_date:time_zone": "America/Los_Angeles"
