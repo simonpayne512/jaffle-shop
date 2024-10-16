@@ -21,6 +21,8 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
+packages-install-path: ../../../../../home/agentuser/.local/lib/python3.10/
+
 vars:
   "dbt_date:time_zone": "America/Los_Angeles"
 
